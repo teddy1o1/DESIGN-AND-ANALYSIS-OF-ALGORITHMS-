@@ -55,7 +55,7 @@ int main(){
     }
     
     arr1.length = n;
-   
+    
     Display(arr1);
 
     printf("\n\nEnter the key for search: ");
@@ -69,8 +69,7 @@ int main(){
     }
     else{
         printf("\n\nTotal Comparisons done: %d\n",q);
-       // printf("Found at index: %d\n", LinearSearch(&arr1, key));
-        printf(".....................\n");
+        printf("..............................\n");
     }
     free(arr1.A);
   }
